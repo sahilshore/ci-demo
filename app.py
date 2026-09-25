@@ -28,7 +28,6 @@ result4 = divide(10, 2)
 result5 = square(5)
 
 if __name__ == "__main__":
-    
     print("Addition Result:", result1)
     print("Subtraction Result:", result2)
     print("Multiplication Result:", result3)
