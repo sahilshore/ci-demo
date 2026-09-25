@@ -29,6 +29,7 @@ jobs:
       - name: run flake8
         run: flake8 app.py
   testing: 
+    needs: linting  # this means that the testing job will only run if the linting job is successful
     runs-on: ubuntu-latest
     steps:
       - name: code checkout
