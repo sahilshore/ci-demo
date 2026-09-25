@@ -27,4 +27,5 @@ class TestMathFunctions(unittest.TestCase):
         self.assertEqual(square(0), 0)
 
 if __name__ == '__main__':
+    
     unittest.main()
